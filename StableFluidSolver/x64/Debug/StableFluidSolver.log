@@ -1,0 +1,32 @@
+﻿Build started 2018/5/2 17:05:38.
+     1>Project "C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\StableFl.B8D5C5E6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         G:\VS2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\StableFluidSolver.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /errorReport:prompt Canvas.cpp Main.cpp Solver.cpp StableFluidSolver.cpp
+         Canvas.cpp
+         Generating Code...
+         Compiling...
+         Solver.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         StableFluidSolver.cpp
+         Main.cpp
+       Link:
+         G:\VS2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\x64\Debug\StableFluidSolver.exe" /INCREMENTAL /NOLOGO opengl32.Lib glfw3.lib glew32d.lib glut64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\x64\Debug\StableFluidSolver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\x64\Debug\StableFluidSolver.lib" /MACHINE:X64 x64\Debug\Canvas.obj
+         x64\Debug\Main.obj
+         x64\Debug\Solver.obj
+         x64\Debug\StableFluidSolver.obj
+         x64\Debug\stdafx.obj
+         StableFluidSolver.vcxproj -> C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\x64\Debug\StableFluidSolver.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\StableFl.B8D5C5E6.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\StableFl.B8D5C5E6.tlog\StableFluidSolver.lastbuildstate".
+     1>Done Building Project "C:\Users\Crysalid\Documents\Visual Studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.49

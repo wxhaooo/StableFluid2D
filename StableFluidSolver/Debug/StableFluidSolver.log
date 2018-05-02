@@ -1,0 +1,60 @@
+﻿Build started 2018/4/29 9:55:22.
+     1>Project "c:\Users\Crysalid\documents\visual studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\StableFl.B8D5C5E6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         G:\VS2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\StableFluidSolver.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         G:\VS2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\StableFluidSolver.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp StableFluidSolver.cpp
+         StableFluidSolver.cpp
+         Main.cpp
+         Generating Code...
+       Link:
+         G:\VS2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\crysalid\documents\visual studio 2017\Projects\StableFluidSolver\Debug\StableFluidSolver.exe" /INCREMENTAL /NOLOGO opengl32.Lib glfw3.lib glew32d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"c:\users\crysalid\documents\visual studio 2017\Projects\StableFluidSolver\Debug\StableFluidSolver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\crysalid\documents\visual studio 2017\Projects\StableFluidSolver\Debug\StableFluidSolver.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\StableFluidSolver.obj
+         Debug\stdafx.obj
+     1>Main.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPAUGLFWwindow@@HHHH@Z)
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+     1>Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+     1>C:\OpenGL\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+     1>C:\OpenGL\libs\glew32d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+     1>c:\users\crysalid\documents\visual studio 2017\Projects\StableFluidSolver\Debug\StableFluidSolver.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "c:\Users\Crysalid\documents\visual studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+       "c:\Users\Crysalid\documents\visual studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" (Build target) (1) ->
+       (Link target) -> 
+         C:\OpenGL\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+         C:\OpenGL\libs\glew32d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+
+
+       "c:\Users\Crysalid\documents\visual studio 2017\Projects\StableFluidSolver\StableFluidSolver\StableFluidSolver.vcxproj" (Build target) (1) ->
+       (Link target) -> 
+         Main.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPAUGLFWwindow@@HHHH@Z)
+         Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+         Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+         Main.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+         c:\users\crysalid\documents\visual studio 2017\Projects\StableFluidSolver\Debug\StableFluidSolver.exe : fatal error LNK1120: 12 unresolved externals
+
+    2 Warning(s)
+    13 Error(s)
+
+Time Elapsed 00:00:05.85
